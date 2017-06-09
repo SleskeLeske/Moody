@@ -1,0 +1,40 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+    section {
+        padding: {
+            top: 60px;
+            bottom:60px;
+        }
+    }
+    hr {
+        width: 60px;
+        color:black;
+    }
+
+
+@import "vendor/bourbon/bourbon";
+
+@import 'base/color';
+@import 'base/typography';
+
+@import 'components/buttons';
+@import 'components/gallery';
+@import 'components/navigation';
+@import 'components/text';
+
+@import 'helpers/functions';
+@import 'helpers/mixins';
+@import 'helpers/variables';
+
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/about';
+@import 'layout/welcome';
